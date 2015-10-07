@@ -1,0 +1,31 @@
+{
+  "name": "files-require-hook",
+  "version": "1.0.0",
+  "description": "require files as paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/files-require-hook.git"
+  },
+  "keywords": [
+    "files",
+    "require",
+    "hook",
+    "filename"
+  ],
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.os)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/files-require-hook/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/files-require-hook#readme",
+  "devDependencies": {
+    "ava": "^0.2.0"
+  },
+  "dependencies": {
+    "defined": "^1.0.0"
+  }
+}
